@@ -1,0 +1,115 @@
+.list-item{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 5% 8%;
+    justify-content: center;
+}
+
+.update-btn{
+    background-color: blue;
+    color: white;
+    margin-left: 2%;
+    border-radius: 4px;
+    width: 10vh;
+    height: auto;
+    font-weight: 800;
+    font-size: 15px;
+    border: 1px solid;
+}
+
+
+.update-btn:hover{
+    background-color: grey;
+}
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    margin-right: 2%;
+    border-radius: 4px;
+    width: 10vh;
+    height: auto;
+    font-weight: 800;
+    font-size: 15px;
+    border: 1px solid;
+    justify-content: center;
+}
+
+.delete-btn:hover{
+    background-color: grey;
+}
+
+
+.item-green{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    color: green;
+}
+
+.item-red{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    color: red
+}
+
+@media (max-width: 720px) {
+    .item-red{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .item-green{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .delete-btn{
+        font-size: 12px;
+        width: 7vh;
+    }
+    .update-btn{
+        font-size: 12px;
+        width: 7vh;
+    }
+}
+
+@media (max-width: 550px) {
+    .item-red{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .item-green{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .delete-btn{
+        font-size: 10px;
+        width: 6vh;
+    }
+    .update-btn{
+        font-size: 10px;
+        width: 6vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .item-red{
+        font-size: 12px;
+        font-weight: 900;
+    }
+    .item-green{
+        font-size: 12px;
+        font-weight: 900;
+    }
+    .delete-btn{
+        font-size: 8px;
+        width: 5vh;
+    }
+    .update-btn{
+        font-size: 8px;
+        width: 5vh;
+    }
+}

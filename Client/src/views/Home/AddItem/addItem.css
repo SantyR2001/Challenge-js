@@ -1,0 +1,43 @@
+.Form{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.Form-selection{
+    display: flex;
+    flex-direction: column;
+}
+
+.Form-input{
+    width: max-content;
+    height: 25px;
+    font-size: 16px;
+}
+
+.Form-submit{
+    height: 35px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.Form-submit:hover{
+    background-color: grey;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .Form{
+        width: 50%;
+        margin-left: 25%; 
+    }
+}
+
+@media (max-width: 400px) {
+    .Form{
+        width: 60%;
+        margin-left: 20%; 
+    }
+}

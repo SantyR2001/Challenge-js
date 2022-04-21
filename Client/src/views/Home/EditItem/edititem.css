@@ -1,0 +1,50 @@
+.disp-center{
+    display: flex;
+    justify-content: center;
+}
+
+.Form-border{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 45%
+}
+
+.Form-space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Form-edit-amount{
+   margin: 3%;
+   width: 90%;
+   height: 25px;
+   font-size: 16px;
+}
+
+.Form-edit-concept{
+    margin: 3%;
+    width: 90%;
+    height: 25px;
+    font-size: 16px;
+ }
+
+.Form-edit-btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.Form-edit-btn:hover{
+    background-color: grey;
+    color: white;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,12 @@
+.Nav{
+    width: 100%;
+    margin: 0;
+    height: 6vh;
+    background-color: #2F304C;
+    color: #14B76E;
+}
+
+.nav-title{
+    text-align: center;
+
+}
